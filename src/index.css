@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: gil;
+    src: url(./assets/Gilroy-FREE/Gilroy-Light.otf);
+}
+
+*{
+    font-family: "gil";
+}
+
+::selection{
+    color: rgb(232, 145, 47);
+}
